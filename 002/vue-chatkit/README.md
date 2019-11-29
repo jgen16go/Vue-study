@@ -1,4 +1,7 @@
 # vue-chatkit
+[https://www.sitepoint.com/pusher-vue-real-time-chat-app/](https://www.sitepoint.com/pusher-vue-real-time-chat-app/)
+
+の写経
 
 ## Project setup
 ```
