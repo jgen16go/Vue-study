@@ -1,4 +1,4 @@
-import chatkit from '../chatkig'
+import chatkit from '../chatkit'
 
 function handleError(commit, error) {
   const message = error.message || error.info.error_description
@@ -17,7 +17,6 @@ export default {
         name:currentUser.name
       })
       commit('setReconnect', false)
-      console.log(state.user)
     } catch (error) {
       handleError(commit, error)
     } finally {

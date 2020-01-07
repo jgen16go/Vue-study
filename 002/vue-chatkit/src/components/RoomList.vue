@@ -23,9 +23,9 @@ export default {
   name: "RoomList",
   computed: {
     ...mapState([
-      'rooms',
       'activeRoom',
-    ])
+      'rooms',
+    ])  
   }
 }
 
